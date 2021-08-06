@@ -1,0 +1,25 @@
+/* initialisation */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* p {
+  color: orangered;
+}
+
+p {
+  color: red;
+} */
+
+#container div {
+  width: 100px;
+  height: 100px;
+  background-color: orangered;
+  border: 1px solid black;
+}
+
+#container {
+  display: flex;
+  justify-content: space-around;
+}
